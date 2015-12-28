@@ -9,5 +9,10 @@ namespace HuihetDMP.Web.Controllers
         {
             return Content("Home/Index");
         }
+
+        public ActionResult Test()
+        {
+            return Content("Home/Test");
+        }
     }
 }
