@@ -12,7 +12,7 @@ namespace HuihetDMP.Web.Controllers
 
         public ActionResult Test()
         {
-            return Content("Home/Test");
+            return Content("Test");
         }
     }
 }
